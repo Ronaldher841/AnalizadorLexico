@@ -49,9 +49,8 @@ Verificar instalación de Java:
 java -version
 javac -version
 
----
 
-## 📁 Estructura del Proyecto
+📁 Estructura del Proyecto
 AnalizadorLexico
 │
 ├── input/
@@ -66,7 +65,6 @@ AnalizadorLexico
         ├── Lexer.java
         ├── Token.java
         └── Main.java
----
 
 📄 Descripción de Archivos
 
@@ -77,7 +75,7 @@ Token.java	Representación de tokens
 Main.java	Programa principal
 test.json	Archivo JSON de entrada
 
----
+
 
 ▶️ Ejecución del Proyecto
 
@@ -88,7 +86,7 @@ javac src/lexer/*.java
 3️⃣ Ejecutar
 java -cp src lexer.Main
 
----
+
 
 📥 Archivo de Entrada
 
@@ -104,7 +102,7 @@ Ejemplo:
   "precio": 2500
 }
 
----
+
 
 📤 Salida del Programa
 
