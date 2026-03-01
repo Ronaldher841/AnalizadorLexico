@@ -49,7 +49,9 @@ Verificar instalación de Java:
 java -version
 javac -version
 
-## 📁 Estructura del Proyecto
+---
+
+📁 Estructura del Proyecto
 AnalizadorLexico
 │
 ├── input/
@@ -64,6 +66,7 @@ AnalizadorLexico
         ├── Lexer.java
         ├── Token.java
         └── Main.java
+---
 
 📄 Descripción de Archivos
 
@@ -74,7 +77,10 @@ Token.java	Representación de tokens
 Main.java	Programa principal
 test.json	Archivo JSON de entrada
 
+---
+
 ▶️ Ejecución del Proyecto
+
 1️⃣ Generar el Analizador Léxico
 java -jar lib/jflex-full-1.9.1.jar src/lexer/Lexer.flex
 2️⃣ Compilar
@@ -82,7 +88,9 @@ javac src/lexer/*.java
 3️⃣ Ejecutar
 java -cp src lexer.Main
 
-## 📥 Archivo de Entrada
+---
+
+📥 Archivo de Entrada
 
 El programa analiza:
 
@@ -96,7 +104,9 @@ Ejemplo:
   "precio": 2500
 }
 
-## 📤 Salida del Programa
+---
+
+📤 Salida del Programa
 
 NombreToken        Lexema                     ExpresionRegular   Fila  Col
 --------------------------------------------------------------------------------
