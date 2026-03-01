@@ -51,7 +51,7 @@ javac -version
 
 ---
 
-📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 AnalizadorLexico
 │
 ├── input/
